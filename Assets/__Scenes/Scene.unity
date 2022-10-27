@@ -425,6 +425,7 @@ GameObject:
   - component: {fileID: 1134829826}
   - component: {fileID: 1134829825}
   - component: {fileID: 1134829827}
+  - component: {fileID: 1134829828}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -497,6 +498,20 @@ MonoBehaviour:
   jumpHeight: 1.5
   gravity: 20
   airControl: 5
+--- !u!114 &1134829828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134829823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e02501632293b24c9a613fe094af65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushMode: 1
+  pushPower: 5
 --- !u!1001 &9211233647167618339
 PrefabInstance:
   m_ObjectHideFlags: 0
