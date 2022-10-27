@@ -36,7 +36,7 @@ public class MouseLook : MonoBehaviour
         Cursor.visible = false;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         // Get the current movement
         float horizontalMovement = Input.GetAxis("Mouse X") * Time.deltaTime * turnSpeed;
